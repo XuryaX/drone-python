@@ -2,6 +2,7 @@ pipeline:
   build:
     image: python
     commands:
+      - python --version
       - pip install -r dev-requirements.txt
       - flake8 setup.py drone tests
       - nosetests --with-coverage --cover-package drone -v
