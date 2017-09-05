@@ -1,6 +1,6 @@
 pipeline:
   build:
-    image: python:3.4
+    image: python
     commands:
       - pip install -r dev-requirements.txt
       - flake8 setup.py drone tests
