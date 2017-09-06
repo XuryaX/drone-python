@@ -23,7 +23,7 @@ drone-python provides a stable plugin module. The HTTP API client is still
 in flux.
 
 Documentation
--------------
+------------
 
 For more information on how to use drone-python, see the
 `documentation site`_.
